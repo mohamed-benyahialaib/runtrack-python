@@ -1,6 +1,5 @@
-num1=40
-num2=2
+chaine = "abcdefghijklmnopqrstuvwxyz" * 1
 
-somme= num1+num2
-
-print("La somme de", num1, "et", num2, "est :", somme)
+for i in range(1, len(chaine)+1):
+    partie = chaine[:i]
+    print(partie)
