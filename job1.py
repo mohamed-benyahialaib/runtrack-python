@@ -1,2 +1,4 @@
-for i in range(21):
-   print(i)
+def my_print_hello():
+    print("Hello world")
+
+my_print_hello()

@@ -1,9 +1,17 @@
-for nombre in range(1, 101):
-    if nombre % 3 == 0 and nombre % 5 == 0:
-        print("Fizzbuzz")
-    elif nombre % 3 == 0:
-        print("Fizz")
-    elif nombre % 5 == 0:
-        print("Buzz")
-    else:
-        print(nombre)
+def calcul(num1, operator, num2):
+    if operator == "+":
+        print(num1+num2)
+    elif operator == "-":
+        print(num1-num2)
+    elif operator == "*":
+        print(num1*num2)
+    elif operator == "/":
+        print(num1/num2)
+    elif operator == "%":
+        print(num1%num2)
+        
+calcul(5,"+",2)
+calcul(5,"-",2)
+calcul(5,"*",2)
+calcul(5,"/",2)
+calcul(5,"%",2)
